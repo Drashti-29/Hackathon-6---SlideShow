@@ -10,7 +10,7 @@
 // export default App;
 
 import React, { Component, useState } from "react";
-// import "../styles/App.css";
+import "../styles/App.css";
 // import slides from "./data.js"
 const App = () => {
   const [displayimage, setimage] = useState(slides[0].title);
